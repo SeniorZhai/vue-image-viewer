@@ -1,5 +1,5 @@
 {
-    "name": "vue-image-viewer-x",
+    "name": "vue-image-viewer-a",
     "version": "1.1.2",
     "description": "a simple and lightweight image viewer.",
     "main": "lib/vue-image-viewer.js",
@@ -21,7 +21,9 @@
         "url": "https://github.com/SeniorZhai/vue-image-viewer/issues"
     },
     "homepage": "https://github.com/SeniorZhai/vue-image-viewer#readme",
-    "dependencies": {},
+    "dependencies": {
+        "fsevents": "^1.2.4"
+    },
     "devDependencies": {
         "autoprefixer": "^7.2.6",
         "babel-core": "^6.26.3",
