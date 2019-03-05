@@ -32,7 +32,7 @@
               :class="{active:i===index}"
               :alt="il.name?il.name:''"
               :title="il.name?il.name:''"
-              :style="{background:'url('+il.url+') no-repeat center center'}"
+              :style="{background:'url('+il.url+') no-repeat 0px 0px'}"
               @click="imgChange(i)"
             ></div>
           </div>
