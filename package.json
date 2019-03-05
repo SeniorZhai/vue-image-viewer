@@ -1,5 +1,5 @@
 {
-    "name": "vue-image-viewer",
+    "name": "vue-image-viewer-x",
     "version": "1.1.2",
     "description": "a simple and lightweight image viewer.",
     "main": "lib/vue-image-viewer.js",
@@ -8,19 +8,19 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/ChiHai-Chuck/vue-image-viewer.git"
+        "url": "git+https://github.com/SeniorZhai/vue-image-viewer.git"
     },
     "keywords": [
         "vue",
         "vue2",
         "vue-image-viewer"
     ],
-    "author": "ChiHai-Chuck <chuck@chihai.me>",
+    "author": "SeniorZhai",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/ChiHai-Chuck/vue-image-viewer/issues"
+        "url": "https://github.com/SeniorZhai/vue-image-viewer/issues"
     },
-    "homepage": "https://github.com/ChiHai-Chuck/vue-image-viewer#readme",
+    "homepage": "https://github.com/SeniorZhai/vue-image-viewer#readme",
     "dependencies": {},
     "devDependencies": {
         "autoprefixer": "^7.2.6",

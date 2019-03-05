@@ -18,7 +18,7 @@
                 <div class="image-viewer-nav-prev" @click="pageChange('prev')"><i class="icon-arrow-left"></i></div>
                 <div class="image-viewer-nav-main">
                     <div class="image-viewer-nav-thumb">
-                        <div v-for="(il,i) in images" :key="i" :class="{active:i===index}" :alt="il.name?il.name:''" :title="il.name?il.name:''" :style="{backgroundImage:'url('+il.url+')'}" @click="imgChange(i)"></div>
+                        <div v-for="(il,i) in images" :key="i" :class="{active:i===index}" :alt="il.name?il.name:''" :title="il.name?il.name:''" :style="{background:'url('+il.url+')'}" @click="imgChange(i)"></div>
                     </div>
                 </div>
                 <div class="image-viewer-nav-next" @click="pageChange('next')"><i class="icon-arrow-right"></i></div>
